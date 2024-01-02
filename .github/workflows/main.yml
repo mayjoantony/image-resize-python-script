@@ -1,13 +1,17 @@
+name: "App - Main Branch Workflow for Build & Release"
 on:
-  pull_request:
-    branches:
-      - main
-      - master
   push:
     branches:
       - main
       - master
-name: "Build & Release"
+      - stage
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+      - master
+      - stage
 jobs:
   build:
     name: Build & Release
