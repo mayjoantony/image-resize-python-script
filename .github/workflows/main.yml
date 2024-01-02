@@ -1,12 +1,6 @@
-name: "App - Main Branch Workflow for Build & Release"
+name: "main-github-actions-workflow"
 on:
   push:
-    branches:
-      - main
-      - master
-  pull_request:
-    types:
-      - closed
     branches:
       - main
       - master
