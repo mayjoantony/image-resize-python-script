@@ -4,14 +4,12 @@ on:
     branches:
       - main
       - master
-      - stage
   pull_request:
     types:
       - closed
     branches:
       - main
       - master
-      - stage
 jobs:
   build:
     name: Build & Release
