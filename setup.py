@@ -12,6 +12,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/mayjoantony/image-resize-python-script",
+    download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v1.0.5.zip",
     classifiers=[
         "License :: OSI Approved :: Python Software Foundation License"
     ],
@@ -20,9 +21,5 @@ setup(
         "numpy",
         "opencv-python",
     ],
-
-    # Could also include long_description, download_url, etc.
-    long_description=open('README.md').read(),
-    long_description_content_type="text/markdown",
-    download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v1.0.5.zip",
+    
 )
