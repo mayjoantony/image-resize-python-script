@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="image-resize-python-script",
-    version="1.0.1",
+    version="1.0.5",
     packages=find_packages(),
 
     # Metadata
@@ -22,4 +22,7 @@ setup(
     ],
 
     # Could also include long_description, download_url, etc.
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
+    download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v1.0.5.zip",
 )
