@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="image-resize-python-script",
-    version="1.0.5",
+    version="1.0.6",
     packages=find_packages(),
 
     # Metadata
@@ -12,7 +12,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/mayjoantony/image-resize-python-script",
-    download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v1.0.5.zip",
+    download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v1.0.6.zip",
     classifiers=[
         "License :: OSI Approved :: Python Software Foundation License"
     ],
@@ -21,5 +21,5 @@ setup(
         "numpy",
         "opencv-python",
     ],
-    
+
 )
