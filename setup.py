@@ -17,8 +17,10 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/mayjoantony/image-resize-python-script",
     download_url="https://github.com/mayjoantony/image-resize-python-script/archive/refs/tags/v{}.zip".format(current_version),
+    keywords=["image", "resize", "python", "script", "png", "opencv", "numpy"],
+    license="MIT",
     classifiers=[
-        "License :: OSI Approved :: Python Software Foundation License"
+        "License :: OSI Approved :: MIT License",
     ],
 
     install_requires=[

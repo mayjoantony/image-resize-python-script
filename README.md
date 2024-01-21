@@ -15,4 +15,4 @@ Feel free to customize the script according to your specific requirements. Happy
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [MIT LICENSE](https://github.com/mayjoantony/image-resize-python-script/blob/main/LICENSE) file for details.
